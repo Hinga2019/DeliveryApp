@@ -12,7 +12,8 @@
     &__contenido {
         background-color: v.$primario;
         padding: v.$separacion;
-        border-radius: 4rem;
+        display: flex;
+        
         flex-direction: column;
         justify-content: space-evenly;
     }
